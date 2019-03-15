@@ -17,9 +17,12 @@
 h1 {
 	font-family: 'Domaine Display';
 	font-weight: bold;
-	font-size: 48px;
 	color: $text-color;
 	text-align: center;
+	font-size: 30px;
+	@media (min-width: $md) {
+		font-size: 48px;
+	}
 }
 
 p {

@@ -32,10 +32,7 @@ html, body {
   margin: 50px auto 0; }
 
 #episode {
-  width: 80%; }
-  @media (min-width: 768px) {
-    #episode {
-      width: 60%; } }
+  margin-top: 5%; }
 
 #reload {
   margin: 0 auto;
@@ -63,6 +60,9 @@ html, body {
 #about {
   font-size: 14px; }
 
+.spacer {
+  height: 30px; }
+
 @font-face {
   font-family: 'Domaine Display';
   src: url("/assets/fonts/DomaineDisplay-Semibold.ttf") format("truetype");
@@ -76,9 +76,12 @@ html, body {
 h1 {
   font-family: 'Domaine Display';
   font-weight: bold;
-  font-size: 48px;
   color: #F8FAFF;
-  text-align: center; }
+  text-align: center;
+  font-size: 30px; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 48px; } }
 
 p {
   font-family: 'National';
